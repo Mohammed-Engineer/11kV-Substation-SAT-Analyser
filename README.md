@@ -1,45 +1,63 @@
-# 11kV Package Substation SAT Analyser
+# âš¡ 11kV Package Substation SAT Analyser
 
-## About
-Automated Site Acceptance Test (SAT) analyser 
-for 11kV package substations built from real 
-commissioning work in Abu Dhabi for ADDC.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![IEC 60076](https://img.shields.io/badge/IEC_60076-Transformers-blue?style=for-the-badge)
+![ADDC](https://img.shields.io/badge/ADDC-Abu_Dhabi-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 
-## Scenario
-Complete 11kV package substation including:
-- 1500 KVA 11kV/415V Transformer (Dyn11)
-- 12kV RMU — Lucy Switchgear VRN2A
-- Substation earthing system
+> Automated Site Acceptance Test (SAT) analyser for 11kV package substations â€” built from real commissioning experience for ADDC Abu Dhabi. Detects real snags automatically.
 
-## What It Does
-- Checks transformer insulation resistance
-- Analyses polarisation index (PI ratio)
-- Detects earthing faults and snags
-- Analyses RMU IR and HV test results
-- Checks CT ratio test results
-- Automatically detects real snag
-- Generates complete SAT summary report
-- Produces professional graphs
+---
 
-## Real Snag Detected
-Neutral earthing resistance 2.73 Ohm
-exceeded IEC limit of 1.0 Ohm
-Python detected this automatically!
+## ðŸ—ï¸ Substation Scenario
 
-## Libraries Used
-- NumPy — calculations
-- Pandas — data analysis  
-- Matplotlib — graphs
+| Equipment | Specification |
+|---|---|
+| Transformer | 1500 kVA â€” 11kV/415V â€” Dyn11 |
+| Switchgear | 12kV RMU â€” Lucy Switchgear VRN2A |
+| Earthing | TN-S system |
+| Client | ADDC â€” Abu Dhabi Distribution Company |
 
-## Standards Applied
-- IEC 60076 — Transformers
-- IEC 60129/62271 — Switchgear
-- ADDC specifications
+---
 
-## Author
-Mohammed Azam Ali MIET
-Testing and Commissioning Engineer
-10+ years MV/HV experience
-Schneider Electric UK
-Previously ACECO — Abu Dhabi UAE
-GitHub: github.com/Mohammed-Engineer
+## ðŸ“‹ What It Does
+
+| Test | Description |
+|---|---|
+| ðŸ” IR Testing | Checks transformer insulation resistance |
+| ðŸ“Š PI Ratio | Analyses polarisation index |
+| ðŸŒ Earthing | Detects earthing faults and snags |
+| ðŸ”Œ RMU Testing | Analyses RMU IR and HV test results |
+| ðŸ”„ CT Ratio | Checks current transformer ratio results |
+| ðŸ“‹ SAT Report | Generates complete professional report |
+
+---
+
+## ðŸš¨ Real Snag Detected By Python!
+
+```
+Neutral Earthing Resistance:  2.73 Î©  â† MEASURED
+IEC Limit:                    1.00 Î©  â† MAXIMUM
+Result:                       âŒ FAIL â€” Python detected automatically!
+```
+
+---
+
+## ðŸ“ Standards Applied
+
+![IEC 60076](https://img.shields.io/badge/IEC_60076-Transformers-grey?style=flat-square)
+![IEC 62271](https://img.shields.io/badge/IEC_62271-Switchgear-grey?style=flat-square)
+![ADDC](https://img.shields.io/badge/ADDC-Specifications-grey?style=flat-square)
+
+---
+
+## ðŸ’¼ Based On Real Experience
+
+17 package substations commissioned under ADDC/AADC in Abu Dhabi â€” witnessed SAT under consultant and client approval. ADDC and AADC competency cards held.
+
+---
+
+**Author:** Mohammed Azam Ali MIET | Testing & Commissioning Engineer  
+**GitHub:** github.com/Mohammed-Engineer | **Experience:** 10+ Years MV/HV Systems
+
+---
